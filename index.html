@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>小瑶叶 YAOYE · 立体书</title>
+    <link rel="icon" href="./img/logo.svg" />
+    <script type="module" crossorigin src="./assets/index-P6BJ_w0I.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-BkH07qBO.css">
+  </head>
+  <body>
+    <div id="app"></div>
+    <div class="grain"></div>
+
+    <header class="pill brand">
+      <img src="./img/logo.svg" alt="" /><b>小瑶叶</b><span>YAOYE</span>
+    </header>
+    <div class="tr"><button class="pill bgbtn" id="coverbtn" title="切换封面绿色"><i class="cv"></i><span id="covername"></span></button><button class="pill bgbtn" id="bgbtn"><i></i><span id="bgname"></span></button><div class="pill chap" id="chap"></div></div>
+
+    <section id="hero">
+      <p class="kicker">A POP-UP BOOK</p>
+      <h1>小瑶叶</h1>
+      <p class="en">YAOYE</p>
+      <p class="desc">一盏灯、一扇门、一阵风……<br />翻开这本会动的立体书，跟着小瑶叶走一遍。</p>
+    </section>
+
+    <img id="runner" src="./poses/motion_run.png" alt="" />
+
+    <nav class="pill bar">
+      <button id="prev" class="icon" aria-label="上一页">‹</button>
+      <div id="dots"></div>
+      <div class="meta"><b id="title">小瑶叶</b><span id="sub"></span></div>
+      <button id="sound" class="icon" aria-label="声音">
+        <svg viewBox="0 0 24 24" width="18" height="18"><path d="M4 9h4l5-4v14l-5-4H4z" fill="currentColor"/><path class="wave" d="M16 8.5a5 5 0 0 1 0 7M18.5 6a8.5 8.5 0 0 1 0 12" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg>
+      </button>
+      <button id="close" class="ghost">合上</button>
+      <button id="act" class="primary">打开书</button>
+      <button id="next" class="icon" aria-label="下一页">›</button>
+    </nav>
+    
+    <div id="loader"><img src="./img/logo.svg" alt="" /><div class="l1">即将翻开《小瑶叶》</div><div class="l2">纸片正在一片片立起来……</div></div>
+
+  </body>
+</html>
